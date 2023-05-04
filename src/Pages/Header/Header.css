@@ -20,7 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 60px;
-    width: 30%;
+    width: 20%;
     padding: 0 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -73,7 +73,7 @@
 .Header_logo1 {
     background-image: url(../../Data/Images/logo\ -\ trangArtboard\ 4@4x.png);
     height: 70px;
-    width: 40%;
+    width: 30%;
     background-size: 100% auto;
     background-position: center;
     position: absolute;

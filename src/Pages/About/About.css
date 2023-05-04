@@ -53,14 +53,14 @@
 
 .SuMenh_Title {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: white;
     padding-bottom: 35px;
 }
 
 .SuMenh_Content {
-    font-size: 28px;
+    font-size: 27px;
     color: white;
     padding-bottom: 50px;
     font-family: "Montserrat";
@@ -104,14 +104,14 @@
 
 .TamNhin_Title {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: white;
     padding-bottom: 35px;
 }
 
 .TamNhin_Content {
-    font-size: 28px;
+    font-size: 27px;
     color: white;
     padding-bottom: 50px;
     font-family: "Montserrat";
@@ -128,8 +128,8 @@
 
 .GTCL_Title {
     text-align: center;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 600;
     color: white;
     padding-bottom: 50px;
     font-family: "Montserrat";
@@ -245,7 +245,6 @@
 .TrietLy {
     background-color: #002d1a;
     padding: 0 10%;
-    padding-top: 70px;
     background-image: url(../../Data/Images/2.jpg);
     background-size: cover;
     padding-bottom: 100px;
@@ -257,7 +256,7 @@
 
 .TrietLy_Title {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     font-weight: 700;
     font-family: "Montserrat";
@@ -267,7 +266,7 @@
     color: aliceblue;
     background-color: #002d1a;
     padding: 20px 70px;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 400;
     margin-top: 40px;
     font-family: "Montserrat";
@@ -295,7 +294,7 @@
 .ConNguoi {
     background-image: url(../../Data/Images/6.jpg);
     background-size: cover;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     background-position: center;
     position: relative;
@@ -305,7 +304,7 @@
     background-image: linear-gradient(#002d1a, #d3d3d3);
     /* opacity: 0.6; */
     position: relative;
-    padding-bottom: 55px;
+    padding-bottom: 0px;
 }
 
 .ConNguoi_top-opacity {
@@ -322,7 +321,7 @@
 
 .ConNguoi_bot-content {
     color: white;
-    padding: 50% 10%;
+    padding: 38% 10%;
     font-size: 25px;
     padding-bottom: 0;
     font-family: "Montserrat";
@@ -331,7 +330,7 @@
 
 .ConNguoi_bot-content1 {
     color: white;
-    padding: 50% 10%;
+    padding: 38% 10%;
     font-size: 25px;
     padding-bottom: 0;
     font-family: "Montserrat";
@@ -347,6 +346,27 @@
     font-size: 40px;
 }
 
+.ConNguoi_bot1 {
+    background-image: linear-gradient(#d3d3d3, #002d1a);
+    border-bottom: 5px solid #013b23;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.ConNguoi_top1 {
+    background-image: linear-gradient(#002d1a, #d3d3d3);
+    display: none;
+}
+
+.ConNguoi_bot-content2 {
+    color: white;
+    padding: 5% 5%;
+    font-size: 20px;
+    padding-bottom: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
 .ConNguoi_Titlee {
     font-size: 60px;
     color: white;
@@ -356,12 +376,24 @@
 }
 
 .ConNguoi_Title22 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
-    padding: 20px 60px;
+    padding: 20px 15%;
     /* opacity: 0; */
     font-family: "Montserrat";
 }
+
+.ConNguoi_img {
+    background-image: url(../../Data/Images/6.jpg);
+    background-size: cover;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+
+
 
 @media (max-width:1200px) {
     .noibo_daotao {
@@ -532,32 +564,116 @@
     }
 }
 
-@media (max-width:770px) {
-    .Header_Underitem {
+@media (max-width:850px) {
+    .ConNguoi_bot-content2 {
+        padding-top: 20px;
+    }
+
+    .SuMenh_Title {
+        font-size: 50px;
+    }
+
+    .TrietLy_Content {
+        font-size: 28px;
+        padding: 5% 5%;
+    }
+
+    .ConNguoi_bot1,
+    .ConNguoi_top1,
+    .ConNguoi_img {
+        display: block;
+    }
+
+    .ConNguoi_img {
+        height: 350px;
+    }
+
+    .ConNguoi_bot {
         display: none;
     }
 
-    .noibo_daotao {
-        width: 100%;
+    .ConNguoi_top,
+    .ConNguoi_top-opacity {
+        display: none;
     }
 
-    .GTCL {
-        padding-left: 7%;
-        padding-right: 7%;
+    .ConNguoi_Titlee {
+        text-align: center;
     }
 
-    .GTCL_noibo,
-    .GTCL_doitac,
+    .ConNguoi_Title22 {
+        font-weight: 600;
+        padding: 2% 3% 5% 5%;
+        font-size: 22px;
+    }
+
+    .TrietLy_Title,
+    .GTCL_Title,
+    .TamNhin_Title,
+    .SuMenh_Title {
+        font-size: 40px;
+    }
+
     .GTCL_khachhang {
-        padding-top: 70px;
+        padding-top: 100px;
     }
 
-
-    .noibo_daotao_title {
-        margin-top: 0;
+    .noibo_daotao_title1 {
+        padding: 5px 7px;
+        font-size: 23px;
     }
 
-    .noibo_daotao_content {
-        margin-bottom: 0;
+}
+
+@media (max-width:520px) {
+    .SuMenh_Title {
+        font-size: 50px;
     }
+
+    .TrietLy_Content {
+        font-size: 28px;
+        padding: 5% 5%;
+    }
+
+    .ConNguoi_bot1,
+    .ConNguoi_top1,
+    .ConNguoi_img {
+        display: block;
+    }
+
+    .ConNguoi_bot {
+        display: none;
+    }
+
+    .ConNguoi_top,
+    .ConNguoi_top-opacity {
+        display: none;
+    }
+
+    .ConNguoi_Titlee {
+        text-align: center;
+    }
+
+    .ConNguoi_Title22 {
+        font-weight: 600;
+        padding: 2% 3% 5% 5%;
+        font-size: 22px;
+    }
+
+    .TrietLy_Title,
+    .GTCL_Title,
+    .TamNhin_Title,
+    .SuMenh_Title {
+        font-size: 40px;
+    }
+
+    .GTCL_khachhang {
+        padding-top: 100px;
+    }
+
+    .noibo_daotao_title1 {
+        padding: 5px 7px;
+        font-size: 23px;
+    }
+
 }

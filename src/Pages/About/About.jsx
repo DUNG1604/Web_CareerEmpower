@@ -320,6 +320,22 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="ConNguoi_top1">
+                <div className="ConNguoi_Titlee">
+                    CON NGƯỜI
+                </div>
+                <div className="ConNguoi_Title22">
+                    ĐỘI NGŨ CAREEREMPOWER LÀ NHỮNG CON NGƯỜI ĐAM MÊ, TÀI NĂNG VÀ KHÔNG NGẠI THỬ THÁCH
+                </div>
+            </div>
+            <div className="ConNguoi_img">
+
+            </div>
+            <div className="ConNguoi_bot1">
+                <div className="ConNguoi_bot-content2">
+                    Chúng tôi không ngừng học hỏi và khám phá những điều mới mẻ để nâng cao kỹ năng và phục vụ khách hàng tốt nhất. Đến với CareerEmpower, bạn sẽ được gặp gỡ những chuyên gia hàng đầu về nghề nghiệp, cũng như những người bạn thân thiết và tin cậy, sẵn sàng đồng hành cùng bạn trong hành trình thay đổi và phát triển nghề nghiệp của bạn.
+                </div>
+            </div>
         </div>
     )
 }

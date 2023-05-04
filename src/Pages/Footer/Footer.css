@@ -9,13 +9,14 @@
 
 .Footer_logo {
     background-image: url(../../Data/Images/logo\ -\ trangArtboard\ 4@4x.png);
-    width: 35%;
-    height: 50px;
-    background-size: cover;
+    width: 30%;
+    height: 70px;
+    background-size: 100% auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 40px;
+    background-repeat: no-repeat;
 }
 
 .Footer_content {
@@ -42,4 +43,38 @@
 .Footer_FB:hover {
     cursor: pointer;
     color: #c4c3c2;
+}
+
+@media (max-width:800px) {
+    .Footer_logo {
+        width: 300px;
+    }
+}
+
+@media (max-width:630px) {
+    .Footer_content {
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .Footer_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:630px) {
+    .Footer_content {
+        flex-direction: column;
+        font-size: 27px;
+    }
+
+    .Footer_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

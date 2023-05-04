@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.Main_headerIn {
+    height: 130px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(white, #002d1a);
+}
+
+.Header_icon {
+    /* background-image: linear-gradient(red, yellow, blue); */
+    background-image: url(../../Data/Images/logo-xanhArtboard\ 3@4x.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 30%;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Header_item {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+.Header_item1 {
+    font-size: 55px;
+    color: #002d1a;
+    cursor: pointer;
+    display: none;
+}
+
+.Header_item1:hover {
+    transform: scale(1.1);
+
+}
+
+.Header_item li {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #005234;
+    justify-content: center;
+    /* font-family: "Myriad Pro", sans-serif; */
+    letter-spacing: -1px;
+}
+
+.Header_item :hover {
+    color: #fd7a42;
+    transition: 0.6s;
+}
+
+
+.Header_Under {
+    height: 120px;
+    background-color: #002d1a;
+    position: relative;
+}
+
+
+.Header_logo1 {
+    background-image: url(../../Data/Images/logo\ -\ trangArtboard\ 4@4x.png);
+    height: 70px;
+    width: 40%;
+    background-size: 100% auto;
+    background-position: center;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+
+}
+
+.Header_underLogo1 {
+    color: white;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+.Header_Under_Line1 {
+    height: 4px;
+    background-image: linear-gradient(#052819, #052819);
+}
+
+
+.demo {
+    cursor: pointer;
+}
+
+@media (max-width:1225px) {
+    .Header_item li {
+        font-size: 22px;
+        /* display: none; */
+    }
+}
+
+@media (max-width:1100px) {
+    .Header_item li {
+        font-size: 22px;
+        /* display: none; */
+        padding: 10px 5px;
+    }
+
+    .Header_icon {
+        width: 25%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:950px) {
+    .Header_item {
+        display: none;
+    }
+
+    .Header_item1 {
+        display: block;
+    }
+
+    .Header_icon {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .Main_headerIn {
+        height: 90px;
+    }
+
+    .Header_logo1 {
+        top: -15%;
+        width: 380px;
+    }
+
+    .Header_underLogo1 {
+        top: 55px;
+        left: 50%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .Header_underLogo1 {
+        font-size: 25px;
+    }
+}

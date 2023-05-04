@@ -1,0 +1,563 @@
+.Header_Underitem {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #002d1a;
+    color: white;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.Header_Underitem li {
+    padding: 0px 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Header_Underitem li::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 80%;
+    background-color: #ff4e00;
+    bottom: 10px;
+    left: 10%;
+    margin-bottom: -0.8125rem;
+    transform: scaleX(0);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 99;
+}
+
+.Header_Underitem li:hover:after {
+    transform: scaleX(1);
+}
+
+.Header_Underitem li:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.Header_Under_Line {
+    height: 10px;
+    background-image: linear-gradient(#000000, #002d1a);
+}
+
+.SuMenh {
+    background-color: #002d1a;
+    padding: 0 10%;
+    padding-top: 50px;
+}
+
+.SuMenh_Title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.SuMenh_Content {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 50px;
+    font-family: "Montserrat";
+}
+
+/* Tam Nhin */
+.TamNhin_Opacity {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #002d1a;
+    opacity: 0.5;
+
+}
+
+.TamNhin1 {
+    opacity: 0;
+}
+
+.TamNhin2 {
+    position: absolute;
+    width: 80%;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.TamNhin {
+    position: relative;
+    padding: 0 10%;
+    padding-top: 50px;
+    background-image: url(../../Data/Images/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.TamNhin_Title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.TamNhin_Content {
+    font-size: 28px;
+    color: white;
+    padding-bottom: 50px;
+    font-family: "Montserrat";
+}
+
+/*  */
+
+.GTCL {
+    background-color: #002d1a;
+    padding: 0 10%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.GTCL_Title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 50px;
+    font-family: "Montserrat";
+}
+
+/* Noibo */
+.GTCL_noibo {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../../Data/Images/3.jpg);
+    background-size: cover;
+    position: relative;
+    padding-top: 20px;
+    background-position: center;
+}
+
+.GTCL_noibo2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 20;
+}
+
+.GTCL_noibo_opacity {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #002d1a;
+    opacity: 0.7;
+}
+
+.noibo_daotao1 {
+    position: absolute;
+    z-index: 21;
+    left: 0%;
+    top: 0%;
+    background-color: #002d1a;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+    border-bottom-right-radius: 20px;
+    font-size: 28px;
+    font-family: "Montserrat";
+}
+
+.noibo_daotao {
+    width: 25%;
+    padding-top: 10px;
+}
+
+.noibo_daotao_title {
+    /* width: 65%; */
+    text-align: center;
+    /* margin-left: 12%;
+    margin-bottom: 10px; */
+    margin-top: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 5px;
+    font-size: 25px;
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noibo_daotao_title1 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+
+.noibo_daotao_content {
+    color: white;
+    box-sizing: border-box;
+    padding: 5% 10%;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: "Montserrat";
+}
+
+/*  */
+.GTCL_khachhang {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../../Data/Images/4.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+    padding-top: 20px;
+    background-position: center;
+
+}
+
+.GTCL_doitac {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../../Data/Images/5.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+    background-position: center;
+    padding-top: 20px;
+
+}
+
+/*  */
+.TrietLy {
+    background-color: #002d1a;
+    padding: 0 10%;
+    padding-top: 70px;
+    background-image: url(../../Data/Images/2.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+    background-position: center;
+    position: relative;
+    padding-top: 50px;
+    border-bottom: 40px solid #002d1a;
+}
+
+.TrietLy_Title {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.TrietLy_Content {
+    color: aliceblue;
+    background-color: #002d1a;
+    padding: 20px 70px;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 40px;
+    font-family: "Montserrat";
+}
+
+.TrietLy_Opacity {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: #002d1a;
+    opacity: 0.7;
+}
+
+.TrietLy1 {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 50px;
+    padding: 0 10%;
+}
+
+.ConNguoi {
+    background-image: url(../../Data/Images/6.jpg);
+    background-size: cover;
+    font-weight: 700;
+    text-align: center;
+    background-position: center;
+    position: relative;
+}
+
+.ConNguoi_top {
+    background-image: linear-gradient(#002d1a, #d3d3d3);
+    /* opacity: 0.6; */
+    position: relative;
+    padding-bottom: 55px;
+}
+
+.ConNguoi_top-opacity {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ConNguoi_bot {
+    background-image: linear-gradient(#002d1a, #d3d3d3);
+    opacity: 0;
+    /* position: relative; */
+}
+
+.ConNguoi_bot-content {
+    color: white;
+    padding: 50% 10%;
+    font-size: 25px;
+    padding-bottom: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.ConNguoi_bot-content1 {
+    color: white;
+    padding: 50% 10%;
+    font-size: 25px;
+    padding-bottom: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.ConNguoi_bot-opacity {
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 100%;
+    color: #000000;
+    font-size: 40px;
+}
+
+.ConNguoi_Titlee {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    /* opacity: 0; */
+    font-family: "Montserrat";
+}
+
+.ConNguoi_Title22 {
+    font-size: 45px;
+    color: white;
+    padding: 20px 60px;
+    /* opacity: 0; */
+    font-family: "Montserrat";
+}
+
+@media (max-width:1200px) {
+    .noibo_daotao {
+        width: 50%;
+    }
+
+    .GTCL_noibo,
+    .GTCL_doitac,
+    .GTCL_khachhang {
+        padding-top: 40px;
+    }
+
+
+    .noibo_daotao_title {
+        margin-top: 0;
+    }
+
+    .noibo_daotao_content {
+        margin-bottom: 0;
+    }
+
+    .GTCL {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .noibo_daotao_content {
+        padding: 5% 5%;
+    }
+
+    .noibo_daotao_title {
+        margin: 30px 0 0;
+    }
+
+    .TrietLy_Title {
+        font-size: 60px;
+    }
+
+    .TrietLy {
+        padding: 0 5%;
+        padding-bottom: 50px;
+    }
+
+    .TrietLy1 {
+        padding: 0 5%;
+        top: 0%;
+    }
+}
+
+@media (max-width:1500px) {
+    .ConNguoi_top {
+        padding: 0 0 30px;
+    }
+}
+
+@media (max-width:1400px) {
+    .ConNguoi_top {
+        padding: 0 0 20px;
+    }
+
+    .ConNguoi_Titlee {
+        font-size: 50px;
+    }
+
+    .ConNguoi_Title22 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1250px) {
+    .ConNguoi_top {
+        padding: 0 0 10px;
+    }
+
+    .ConNguoi_Title22 {
+        font-size: 35px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width:1100px) {
+    .Header_Underitem {
+        font-size: 22px;
+    }
+
+    .Header_Underitem li {
+        padding: 0 20px;
+    }
+
+    .ConNguoi {
+        background-size: contain;
+    }
+
+    .ConNguoi_bot-content1 {
+        padding: 28% 10%;
+        font-size: 23px;
+    }
+
+    .ConNguoi_bot-content {
+        padding: 15% 10%;
+        font-size: 23px;
+    }
+
+    .ConNguoi_Titlee {
+        font-size: 40px;
+    }
+
+    .ConNguoi_Title22 {
+        font-size: 25px;
+        padding: 0 60px 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    .Header_Underitem {
+        font-size: 20px;
+        padding: 15px 0 10px;
+    }
+
+    .Header_Underitem li {
+        padding: 0 10px;
+    }
+
+    .TrietLy_Title {
+        font-size: 50px;
+    }
+
+    .ConNguoi_bot-content1 {
+        padding: 27% 5%;
+        font-size: 22px;
+    }
+
+    .ConNguoi_bot-content {
+        padding: 14% 5%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:940px) {
+    .ConNguoi_bot-content1 {
+        padding: 27% 5%;
+        font-size: 20px;
+    }
+
+    .ConNguoi_bot-content {
+        padding: 14% 5%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:870px) {
+    .ConNguoi_bot-content1 {
+        padding: 27% 5%;
+        font-size: 20px;
+    }
+
+    .ConNguoi_bot-content {
+        padding: 14% 5%;
+        font-size: 20px;
+    }
+
+    .ConNguoi_Titlee {
+        font-size: 35px;
+    }
+
+    .ConNguoi_Title22 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:770px) {
+    .Header_Underitem {
+        display: none;
+    }
+
+    .noibo_daotao {
+        width: 100%;
+    }
+
+    .GTCL {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .GTCL_noibo,
+    .GTCL_doitac,
+    .GTCL_khachhang {
+        padding-top: 70px;
+    }
+
+
+    .noibo_daotao_title {
+        margin-top: 0;
+    }
+
+    .noibo_daotao_content {
+        margin-bottom: 0;
+    }
+}

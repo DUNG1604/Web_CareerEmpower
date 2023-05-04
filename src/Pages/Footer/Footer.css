@@ -1,0 +1,45 @@
+.Footer {
+    background-color: #002d1a;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    flex-direction: column;
+    position: relative;
+}
+
+.Footer_logo {
+    background-image: url(../../Data/Images/logo\ -\ trangArtboard\ 4@4x.png);
+    width: 35%;
+    height: 50px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+
+.Footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 22px;
+}
+
+.Footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Footer_FB {
+    cursor: pointer;
+    color: white;
+}
+
+.Footer_FB:hover {
+    cursor: pointer;
+    color: #c4c3c2;
+}
